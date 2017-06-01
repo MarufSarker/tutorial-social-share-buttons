@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Social Share Buttons</title>
+
+	<meta name="description" content="Building simple social sharing buttons without any external libraries.">
+	<meta name="keywords" content="social,media,share,button,twitter,facebook,googleplus,reddit,linkedin,email,javascript,js,html,css">
+	<meta name="revised" content="Abu Md. Maruf Sarker, Apr 22, 2016">
+	<meta name="author" content="Abu Md. Maruf Sarker">
+
+	<!-- Social Medias -->
+	<!-- Twitter -->
+	<meta name="twitter:card" content="summary" />
+	<meta name="twitter:site" content="@iMARUF" />
+	<meta name="twitter:creator" content="@iMARUF" />
+	<meta name="twitter:title" content="Building Simple Social Media Sharing Buttons Without Any External Libraries" />
+	<meta name="twitter:description" content="Building simple social sharing buttons without any external libraries." />
+	<meta name="twitter:image" content="https://marufsarker.github.io/tutorial-social-share-buttons/screenshot.png" />
+	<meta name="twitter:image:alt" content="Building simple social media sharing buttons without any external libraries." />
+
+	<!-- Open Graph -->
+	<meta property="og:type" content="article" />
+	<meta name="og:title" content="Building Simple Social Media Sharing Buttons Without Any External Libraries" />
+	<meta property="og:url" content="https://marufsarker.github.io/tutorial-social-share-buttons" />
+	<meta name="og:image" content="https://marufsarker.github.io/tutorial-social-share-buttons/screenshot.png" />
+	<meta name="og:description" content="Building simple social sharing buttons without any external libraries." />
+
+	<!-- Social Share Buttons - StyleSheets -->
+	<link rel="stylesheet" href="assets/css/styles.css">
+
+	<!-- Google Analytics - Starts -->
+	<script type="text/javascript">
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+		ga('create', 'UA-73363148-1', 'auto');
+		ga('send', 'pageview');
+	</script>
+	<!-- Google Analytics - Ends -->
+
+</head>
+<body>
+
+	<!-- Social Share Buttons - HTML - Start -->
+	<div class="svg-social-buttons-container">
+		<div class="svg-social-buttons-body">
+			<div class="svg-single-social-button svg-share-twitter" title="Share to Twitter. Opens in a new window." onclick="socialShareManager('twitter');">
+				<i class="svg-holder svg-twitter"></i>
+			</div>
+			<div class="svg-single-social-button svg-share-facebook" title="Share to Facebook. Opens in a new window." onclick="socialShareManager('facebook');">
+				<i class="svg-holder svg-facebook"></i>
+			</div>
+			<div class="svg-single-social-button svg-share-reddit" title="Share to reddit. Opens in a new window." onclick="socialShareManager('reddit');">
+				<i class="svg-holder svg-reddit"></i>
+			</div>
+			<div class="svg-single-social-button svg-share-google-plus" title="Share to Goolge+. Opens in a new window." onclick="socialShareManager('google-plus');">
+				<i class="svg-holder svg-google-plus"></i>
+			</div>
+			<div class="svg-single-social-button svg-share-linkedin" title="Share to LinkedIn. Opens in a new window." onclick="socialShareManager('linkedin');">
+				<i class="svg-holder svg-linkedin"></i>
+			</div>
+			<div class="svg-single-social-button svg-share-email" title="Share by e-mail. Opens in default e-mail client." onclick="socialShareManager('email');">
+				<i class="svg-holder svg-email"></i>
+			</div>
+		</div>
+	</div>
+	<!-- Social Share Buttons - HTML - End -->
+
+	<br><br>
+	<div class="project-link">
+		<a href="https://github.com/MarufSarker/tutorial-social-share-buttons/">Project Files on GitHub</a>
+	</div>
+
+	<!-- Social Share Buttons - Scripts -->
+	<script src="assets/js/scripts.js"></script>
+
+</body>
+</html>

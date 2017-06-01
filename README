@@ -1,0 +1,16 @@
+# Social Share Buttons
+
+![Simple Social Media Sharing Buttons](screenshot.png)
+
+Simple social media sharing buttons using HTML, CSS and vanilla JavaScript. No dependencies like jQuery or other social-platform specific libraries are required.
+
+## Using
+
+To use copy the codes from `index.html`, and everything from `assets` folder.
+
+## License
+```
+Copyright (c) 2015-Present, Abu Md. Maruf Sarker.
+MIT License
+(see LICENCE file for details)
+```

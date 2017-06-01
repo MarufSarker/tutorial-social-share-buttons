@@ -1,0 +1,122 @@
+/**
+ *
+ * Author: Abu Md. Maruf Sarker
+ * Author URI: https://marufsarker.github.io/
+ * License: MIT License
+ * License URI: https://opensource.org/licenses/mit-license.php
+ *
+ *
+ * Title: Stylesheet for Social Share Buttons
+ *
+ */
+
+.svg-social-buttons-container {
+  text-align: center;
+  margin: 10px auto;
+}
+
+.svg-social-buttons-body {
+  margin: auto;
+}
+
+.svg-single-social-button {
+  width: 48px;
+  height: 48px;
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  background-color: #A8A8A8;
+}
+
+.svg-single-social-button:hover,
+.svg-single-social-button:focus {
+  opacity: 0.7;
+}
+
+.svg-share-twitter {
+  background-color: #55ACEE;
+}
+
+.svg-share-facebook {
+  background-color: #3B5998;
+}
+
+.svg-share-google-plus {
+  background-color: #DC4E41;
+}
+
+.svg-share-reddit {
+  background-color: #5F99CF;
+}
+
+.svg-share-linkedin {
+  background-color: #0077B5;
+}
+
+.svg-share-email {
+  background-color: #34BF49;
+}
+
+.svg-holder {
+  position: absolute;
+  display: block;
+  background-size: 100% 100%;
+  width: 80%;
+  height: 80%;
+  top: 5px;
+  left: 5px;
+}
+
+.svg-twitter {
+  background-image: url(/assets/img/svg/twitter.svg);
+}
+
+.svg-facebook {
+  background-image: url(/assets/img/svg/facebook.svg);
+  top: 6px;
+}
+
+.svg-reddit {
+  background-image: url(/assets/img/svg/reddit-alien.svg);
+}
+
+.svg-google-plus {
+  background-image: url(/assets/img/svg/google-plus.svg);
+}
+
+.svg-linkedin {
+  background-image: url(/assets/img/svg/linkedin.svg);
+}
+
+.svg-email {
+  background-image: url(/assets/img/svg/envelope.svg);
+  top: 4px;
+  left: 4.5px;
+}
+
+
+
+
+/*Others*/
+body {
+  padding-top: 200px;
+}
+
+.project-link {
+  margin: 0 auto;
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+}
+
+.project-link a {
+  color: #000000;
+  font-size: 1.3em;
+  text-decoration: none;
+}
+
+.project-link a:hover,
+.project-link a:focus {
+  text-decoration: underline;
+  font-size: 1.35em;
+}
